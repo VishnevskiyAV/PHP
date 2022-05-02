@@ -79,11 +79,10 @@ trait CanFlyTr {
     public function fly() {
         echo "Полёт самолёта<br>";
     }
-
+}
 /* В классах Car и Aircraft подключите трейты, удалив при этом реализацию методов move() и fly()
  (поскольку теперь реализация находится в самих трейтах).*/
 
-}
 class CarTr {
     use CanMoveTr;
 }
