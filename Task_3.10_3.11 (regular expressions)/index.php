@@ -34,8 +34,4 @@ echo '<br>';
  
  echo preg_replace($reg, 'Ссылки запрещены', $text);
 
-
-
-
-
 ?>
