@@ -32,7 +32,7 @@ $tex = $_POST['tex']?? '';
     </li>
 </ul>
 <?php if (isset($op)) { ?>
-    <p><span style="color: red; font-size: <?=$a?>"><?=$text?></span></p>
+    <p><span style="color: red; font-size: <?=$a?>"></span></p>
 <?php } ?>
 
 <form name="myform" action="" method="post">
